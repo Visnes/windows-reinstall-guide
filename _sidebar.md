@@ -1,29 +1,18 @@
-- Getting started
+- [Before you reinstall](before.md)
 
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [Backing up](before.md#backing-up)
+  - [List of current apps](before.md#list-of-current-apps)
+  - [Screenshots](before.md#screenshots)
 
-- Customization
+- [Reinstalling Windows](during.md)
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Emoji](emoji.md)
+  - [Ventoy](during.md#ventoy)
+  - [Themes](during.md#windows-media-creation-tool)
+  - [List of Plugins](during.md#creating-your-own-windows-11-iso)
 
-- Guide
+- [Reinstalled Windows](after.md)
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Server-Side Rendering (SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+  - [Stage One](after.md)
+  - [Package Managers](package-managers.md)
 
-- [Awesome docsify](awesome.md)
 - [Changelog](changelog.md)

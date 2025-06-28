@@ -1,14 +1,9 @@
 # Welcome to the Reinstall Guide
+This guide was made for personal use because I wanted to remember everything I needed to keep safe, and to make the reinstall process easier. Plus, I love making lists and shit like that.
 
-<div class="splash-container">
-  <img src="logo.png" alt="Logo" />
-  <h1>Windows Reinstall Guide</h1>
-  <p>Scroll down to start the guide.</p>
-</div>
+A friend asked me to give him the files, so of course I over did it. The files started as .txt documents, but is now a repo. Why? Eh?
 
----
+# Things to remember
+This is a guide that works for me. It might not work for you. I'm not responsible for you fucking your shit up. Thanks.
 
-## Before Reinstall
-
-<!-- This links into docs/before.md -->
-[See detailed steps →](docs/before.md)
+**[Let's a go! →](before.md)**
