@@ -80,4 +80,4 @@ It's important to backup whatever you need. I always save my most important stuf
 - <input type="checkbox" id="step5"> Step 5: List of all apps installed
 - <input type="checkbox" id="step6"> Step 6: Screenshots taken
 
-**[Time to install Windows 11, baby! →](during.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Time to install Windows 11, baby! ➡️](during.md)**</span><br /><br /><br />

@@ -68,4 +68,4 @@ Windows defaults to not use your full system. On a stationary PC, change the pow
 
 - Go through Windows Settings and set it up
 
-**[Let's check on Windows Update →](windows-update.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Let's check on Windows Update ➡️](windows-update.md)**</span><br /><br /><br />

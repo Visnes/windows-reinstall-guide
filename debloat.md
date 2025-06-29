@@ -96,4 +96,4 @@ You have to download the app from the github (linked above), and run it.
 
 You have to download the app from the github (linked above), and run it.
 
-   **[Beautify Windows Terminal! →](terminal.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Beautify Windows Terminal! ➡️](terminal.md)**</span><br /><br /><br />

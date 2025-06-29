@@ -662,4 +662,4 @@ Launcher for managing Python versions and scripts.
 winget install Python.Launcher
 ```
 
-**[Time to download apps and run the installer, mate. →](install-manually.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Time to download apps and run the installer, mate. ➡️](install-manually.md)**</span><br /><br /><br />

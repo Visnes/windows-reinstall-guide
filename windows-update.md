@@ -17,4 +17,4 @@ If you installed the **Intel Driver & Support Assistant**, you can double click 
 
 Check your motherboard provider and see if there are any BIOS updates. You can also check if there are any new Windows Driver updates that you should be installing. Specifially chipset drivers.
 
-**[If you're not using English on everything, check this! →](language.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[If you're not using English on everything, check this! ➡️](language.md)**</span><br /><br /><br />

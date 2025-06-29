@@ -37,4 +37,4 @@ Go to [UUP dump](https://uupdump.net/) find a ISO you want to use, create that I
 > [!ATTENTION]
 > It would be a good idea to download the network drivers for your motherboard from the vendor. With my current computer the Windows installer doesn't load them, so I have to manually select them to get networking to work. Or, you could just skip hooking up to the network till after you are in Windows.
 
-**[This is why you're here, what to do after you reinstall Windows 11! →](after.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[This is why you're here, what to do after you reinstall Windows 11! ➡️](after.md)**</span><br /><br /><br />

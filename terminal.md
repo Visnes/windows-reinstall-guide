@@ -88,4 +88,4 @@ Make sure the following is located in this file
    ```
 You can remove whatever part you didn't install. So if you didn't install Winfetch, just skip everything in the #Winfetch part.
 
-**[Let's get to installing software! →](software.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Let's get to installing software! ➡️](software.md)**</span><br /><br /><br />

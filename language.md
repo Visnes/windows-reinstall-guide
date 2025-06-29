@@ -45,4 +45,4 @@ I have experienced that Windows isn't automatically syncing the time in Windows,
 4. **Win+R** and type **Services.msc**
 5. Find **"Windows Time"** and check that it's set to **"Automatic"**
 
-**[Are we done yet?! →](done.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Are we done yet?! ➡️](done.md)**</span><br /><br /><br />

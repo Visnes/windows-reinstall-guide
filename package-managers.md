@@ -41,4 +41,4 @@ Scoop is another variant of Chocolatey. I've used it a couple of times, but now 
    scoop bucked add extras
    ```
 
-   **[Debloat Windows now! →](debloat.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Debloat Windows now! ➡️](debloat.md)**</span><br /><br /><br />

@@ -134,4 +134,4 @@ Just get it over with: Settings → Windows Update → Check for updates
 
 After you've rebooted, do this again untill you can't update no more! Then move on.
 
-**[Next up, package managers! →](package-managers.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Next up, package managers! ➡️](package-managers.md)**</span><br /><br /><br />

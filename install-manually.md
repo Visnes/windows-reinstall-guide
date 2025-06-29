@@ -60,4 +60,4 @@ I hate Adobe, so I use the Affinity suite instead.
 
 📥 [Download the app](https://store.serif.com/en-us/account/downloads/)
 
-**[Now for settings! →](settings.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Now for settings! ➡️](settings.md)**</span><br /><br /><br />
