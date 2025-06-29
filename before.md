@@ -61,7 +61,14 @@ It's important to backup whatever you need. I always save my most important stuf
 > 💡 **Why do this?**
 > This will create a file called 'Installed Apps (April 2025).txt' on your desktop. This file will contain all installed apps on Windows. Why run this and the one above? Because some times you don't get all the apps with this command unfortunately.
 
-7. Take screenshots of your startmenu, taskbar, desktop.
+7. Backup Firefox (if you use it)
+
+→ Open **"about:profiles"** in Firefox  
+→ Open the default profile that you are currently using
+→ Copy that folder to another drive (Not in Dropbox or C-drive) and rename it ex. **"Firefox Profile"**
+→ You now have a copy of your profile (which was inside AppData)
+
+8. Take screenshots of your startmenu, taskbar, desktop.
 
 > 💡 **Why do this?**
 > So you remember which apps you have were. I do this because I like my Start Menu some certain way, if you don't care about that, skip it.

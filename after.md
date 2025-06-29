@@ -98,9 +98,40 @@ I usually install Windows Sandbox at this point, type the following command:
    Enable-WindowsOptionalFeature -Online -FeatureName "Containers-DisposableClientVM" -All
    ```
 
+## Turn off ACM
+Windows has a feature that screws with the color of your monitor. Turn that shit off
+
+- Settings → System → Display → Color management → If **"Automatically manage color for apps"** is on, turn it off!
+
 ## Windows 11 Pro N
 If you installed this version of Windows 11 and want to install the Media Features now or later on
 
 Settings → Apps → Optional features → Select View features → Install the Media Feature Pack
+
+## Change location of Windows folders
+
+If you use Dropbox, you can create a folder in your Dropbox called Windows and then move the different Windows folders like Documents, Music, Pictures etc. to that folder. Which makes it easier to both back up, and get back up and running. You can also drop backing up with OneDrive if you use this method.
+
+- Right click Documents → Location → Move... → Select where to move it
+
+For example the location would be **"D:\Dropbox\Windows\Documents"** instead of **"C:\Users\<user>\Documents"**
+
+The folders you can move are (default location is C:\Users\<user>\):  
+→ Contacts  
+→ Desktop (If you keep stuff on the Desktop, I wouldn't add it to Dropbox)
+→ Documents
+→ Downloads (I wouldn't add this to Dropbox)  
+→ Favorites  
+→ Links  
+→ Music  
+→ Pictures  
+→ Saved Games  
+→ Searches  
+→ Videos  
+
+## Update Windows completely
+Just get it over with: Settings → Windows Update → Check for updates
+
+After you've rebooted, do this again untill you can't update no more! Then move on.
 
 **[Next up, package managers! →](package-managers.md)**
