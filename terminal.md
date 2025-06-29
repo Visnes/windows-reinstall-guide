@@ -56,6 +56,8 @@ Install Winfetch by tuping this in Windows Terminal
    ```terminal
    Install-Script winfetch
    ```
+<br />
+
 > [!ATTENTION|label:Install location] 
 > App installed in: C:\Users\<user>\Documents\PowerShell\Scripts  
 > Config installed in: C:\Users\<user>\.config\winfetch\config.ps1
