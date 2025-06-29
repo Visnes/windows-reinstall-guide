@@ -17,14 +17,20 @@ Now that you've made backups of the stuff you care about, you're now ready to re
 
 # Make a bootable Windows USB stick
 
+You have to make a USB stick so that you can install Windows. If you don't have a DVD-drive that is. 🙃 There are several options. Here are some of them.
+
 ## Ventoy
 There are several ways to do this, I like to use [Ventoy](https://github.com/ventoy/Ventoy). It's tooted as "A new bootable USB solution".
 
+![ventoy](_media/ventoy.png)
+
 > [!NOTE]
-> The reason I like it, is that you make a Ventoy USB stick, and just copy the ISOs you want onto it, and then you get to select which ISO to run. So you can have one USB stick with both Windows, Linux etc. A little more involved, but really nice.
+> The reason I like it, is that you make a Ventoy USB stick, and just copy the ISOs you want onto it, and then you get to select which ISO to run. So you can have one USB stick with both Windows, Linux etc. A little more involved, but really nice. If you at one point get a new ISO, you can just copy it straight on it without having to do all the formating and shit that comes with making it the old way.
 
 ## Windows Media Creation Tool
 If you don't need that, you can easily create a Windows 11 bootable USB stick using [Windows Media Creation Tool](https://www.microsoft.com/software-download/windows11).
+
+![media-creation-tool](_media/media-creation-tool.png)
 
 1. Download the Windows Media Creation Tool
 2. Run it
@@ -35,6 +41,8 @@ If you don't need that, you can easily create a Windows 11 bootable USB stick us
 
 ## Creating your own Windows 11 ISO
 Go to [UUP dump](https://uupdump.net/) find a ISO you want to use, create that ISO and download it. You're on your own with this one. 🙃
+
+![uupdump](_media/uupdump.png)
 
 > [!ATTENTION]
 > It would be a good idea to download the network drivers for your motherboard from the vendor. With my current computer the Windows installer doesn't load them, so I have to manually select them to get networking to work. Or, you could just skip hooking up to the network till after you are in Windows.

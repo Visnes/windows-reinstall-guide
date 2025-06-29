@@ -62,6 +62,8 @@ Install the newest Powershell
    iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
    ```
 
+<br />
+
    > [!ATTENTION]  
    > The Powershell that comes with Windows is not the newest version, so you use this to install it. This will install the newest PowerShell into Program Files.
 
