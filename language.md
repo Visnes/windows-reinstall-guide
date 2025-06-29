@@ -29,7 +29,7 @@ Windows often gets confused that you want to have an English version Windows but
 It's really annoying when you accidentally hit the shortcut for the magnifier app. And it's a bit more involved removing that feature.
 
 In Windows Terminal, do the following:
-```powershell
+```terminal
 takeown /f C:\Windows\System32\Magnify.exe
 cacls C:\Windows\System32\Magnify.exe /G administrators:F
 cd "C:\Windows\System32"

@@ -46,7 +46,7 @@ It's important to backup whatever you need. I always save my most important stuf
 ---
 
 5. In **PowerShell**, run:  
-   ```powershell
+   ```terminal
    choco list --local-only
    winget list
 
@@ -54,7 +54,7 @@ It's important to backup whatever you need. I always save my most important stuf
 > This will show you a list of all the apps installed by these programs. If you don't use Chocolatey or Scoop, you can skip those. Winget will show you installed apps from Microsoft Store.
 
 6. In **PowerShell**, run:  
-   ```powershell
+   ```terminal
    Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*,HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | Where-Object { $_.DisplayName } | Select-Object DisplayName, DisplayVersion, Publisher | Sort-Object DisplayName | Out-File -Encoding UTF8 -FilePath (Join-Path $env:USERPROFILE "Desktop\Installed Apps ($(Get-Date -Format 'MMMM yyyy')).txt")>
    ```
 

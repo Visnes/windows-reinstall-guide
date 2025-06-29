@@ -24,16 +24,16 @@ After the install, start it and make sure it syncs to the folder you have on you
 <!-- tabs:start -->
 #### **WinGet**
 
-```powershell
+```terminal
 winget install Dropbox.Dropbox
 ```
 #### **Chocolatey**
 
-```powershell
+```terminal
 choco install -y dropbox
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install dropbox
 ```
 <!-- tabs:end -->
@@ -44,16 +44,16 @@ scoop install dropbox
 ### 🚨 Mozilla Firefox
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Mozilla.Firefox
 ```
 #### **Chocolatey**
 
-```powershell
+```terminal
 choco install -y firefox
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install firefox
 ```
 <!-- tabs:end -->
@@ -69,15 +69,15 @@ You don't have Proton yet? What are you even doing with your life? Anyway, if yo
 
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Proton.ProtonPass
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y protonpass
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install protonpass
 ```
 <!-- tabs:end -->
@@ -92,11 +92,11 @@ Like I said above, two ways of doing it. Either manually one after the other, or
 Change this script with the apps you want to use, the good thing is that you can keep this safe somewhere, so the next time you have to reinstall Windows, you just run this one script.
 
 in Windows Terminal go to the folder you want to save it and type
-   ```powershell
+   ```terminal
    notepad semi-critical-software.ps1
    ```
 Then in that file, add the following
-   ```powershell
+   ```terminal
 #############
 # Variables #
 #############
@@ -133,7 +133,7 @@ $decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
     }
    ```
 This will install everthing in one go. Just edit the file as you see fit, easy to understand how it works by looking at it. Save the file and run it with the following command
-   ```powershell
+   ```terminal
    powershell.exe -executionpolicy bypass -file 'D:\location of file\semi-critical-software.ps1'
    ```
 This will bypass any lockouts and run the script. You will be asked if you want to install them or not.
@@ -150,15 +150,15 @@ For the above apps, just type this one line at a time into Windows Terminal
 I like this one more than 7z.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install M2Team.NanaZip
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y nanzip
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install nanazip
 ```
 <!-- tabs:end -->
@@ -167,15 +167,15 @@ scoop install nanazip
 For the time being this is what we all use. Keep fucking adding ads and shit, and we'll find something else or go back to IRC.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Discord.Discord
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y discord
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install discord
 ```
 <!-- tabs:end -->
@@ -184,15 +184,15 @@ scoop install discord
 A better app for taking screenshots. Can edit the screenshot before you take it (add text, blur text etc), can also create gif and mp4 captures.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install ShareX.ShareX
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y sharex
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install sharex
 ```
 <!-- tabs:end -->
@@ -201,15 +201,15 @@ scoop install sharex
 Awesome tools made by Microsoft developers for use with Windows. Better zoning of Windows, copy text from images, create workspaces and a bunch of other cool and usefull stuff
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Microsoft.PowerToys
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y powertoys
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install powertoys
 ```
 <!-- tabs:end -->
@@ -218,15 +218,15 @@ scoop install powertoys
 I use multi monitors, and this has some really good ways to manage this in Windows, better than Windows does it at least. It's pay2use though. They do offer a free trial. Bought it ones many many many years ago, and still get updates.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install BinaryFortress.DisplayFusion
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y displayFusion
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install displayfusion
 ```
 <!-- tabs:end -->
@@ -235,42 +235,42 @@ scoop install displayfusion
 Do you need it? Something every discusses. I used it because it was recommended by someone way back when, and I've just stuck with it. Paid once. Windows Defender is enough for 99.99 % of people I guess.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Malwarebytes.Malwarebytes
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y malwarebytes
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install malwarebytes
 ```
 <!-- tabs:end -->
 
 ### 🚘[Intel Driver & Support Assistant](https://www.intel.com/content/www/us/en/support/detect.html)
 If you have an Intel CPU, this is a nice piece of software that makes sure you're running up to date drivers for your motherboard.
-```powershell
+```terminal
 winget install Intel.IntelDriverAndSupportAssistant
 ```
 ### 🔉[AudioSwitch](https://github.com/sirWest/AudioSwitch)
 If you use speakers and headset, you know that you need to change the device when you switch between them. This help to make that process easier. Adds a icon to the system tray that you can click and change the source. Lots of other apps exist for this.
-```powershell
+```terminal
 winget install sirWest.AudioSwitch
 ```
 ### 🖱️[LittleBigMouse](https://github.com/mgth/LittleBigMouse)
 If you have multi monitors of different resolutions and orientations, this is a must. It will make it so that when you move your mouse between monitors, it doesn't skip because the size difference etc. Why Microsoft haven't fixed this yet is weird...
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install mgth.LittleBigMouse
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y littlebigmouse
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install littlebigmouse
 ```
 <!-- tabs:end -->
@@ -283,7 +283,7 @@ Here is a list of software I find usefull and tend to end up installing.
 
 ### 🪟Windows HDR Calibration
 This Microsoft app isn't installed by default, but if you have an OLED monitor with HDR support, download and calibrate it.
-```powershell
+```terminal
 winget install 9N7F2SM5D1LR
 ```
 
@@ -291,21 +291,21 @@ winget install 9N7F2SM5D1LR
 I moved away from Google and over to Proton. Don't regret it at all, it's awesome and getting better by the day!
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Proton.ProtonDrive
 winget install Proton.ProtonMail
 winget install Proton.ProtonMailBridge
 winget install Proton.ProtonVPN
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y protondrive
 choco install -y protonmail
 choco install -y protonmailbridge
 choco install -y protonvpn
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install protondrive
 scoop install protonmail
 scoop install protonmailbridge
@@ -319,7 +319,7 @@ Non-critical software are just things that are nice to have if you need it.
 
 ### <i class="fa-solid fa-file-pen"></i> [Notepads](https://github.com/0x7c13/Notepads)
 Most people use Notepad++ or something else. Even Notepad has gotten better (but has AI 🤮). This I think is really good looking, and has what I need. For more complex files etc, I use VSCode.
-   ```powershell
+   ```terminal
    winget install JackieLiu.NotepadsApp
    ```
 
@@ -327,15 +327,15 @@ Most people use Notepad++ or something else. Even Notepad has gotten better (but
 Remotly connect to your other PCs easy and fast.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Parsec.Parsec
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y parsec
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install parsec
 ```
 <!-- tabs:end -->
@@ -344,15 +344,15 @@ scoop install parsec
 Remote desktop software that’s simple, secure, and open source.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Rustdesk.Rustdesk
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y rustdesk
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install rustdesk
 ```
 <!-- tabs:end -->
@@ -362,15 +362,15 @@ Popular music streaming app with millions of songs and playlists. I really want 
 
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Spotify.Spotify
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y spotify
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install spotify
 ```
 <!-- tabs:end -->
@@ -379,15 +379,15 @@ scoop install spotify
 Batch rename multiple files and folders easily with custom rules.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install HulubuluSoftware.AdvancedRenamer
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y advanced-renamer
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install advanced-renamer
 ```
 <!-- tabs:end -->
@@ -396,15 +396,15 @@ scoop install advanced-renamer
 Lightweight, fast PDF reader supporting many formats.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install SumatraPDF.SumatraPDF
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y sumatrapdf
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install sumatrapdf
 ```
 <!-- tabs:end -->
@@ -413,15 +413,15 @@ scoop install sumatrapdf
 Cloud-based instant messaging app with focus on speed and security.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Telegram.TelegramDesktop
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y telegram
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install telegram
 ```
 <!-- tabs:end -->
@@ -430,15 +430,15 @@ scoop install telegram
 End-to-end encrypted messaging app for privacy-focused communication.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install OpenWhisperSystems.Signal
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y signal
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install signal
 ```
 <!-- tabs:end -->
@@ -447,15 +447,15 @@ scoop install signal
 Network monitoring tool with firewall and security features. Has free version, but many features behind subscription
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install GlassWire.GlassWire.Lite
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y glasswire
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install glasswire
 ```
 <!-- tabs:end -->
@@ -464,15 +464,15 @@ scoop install glasswire
 System cleaner and optimization tool to free up space and improve performance.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install BleachBit.BleachBit
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y bleachbit
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install bleachbit
 ```
 <!-- tabs:end -->
@@ -481,15 +481,15 @@ scoop install bleachbit
 Tool for managing Samsung SSDs, firmware updates, and performance tuning. Not using Samsung, don't install.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install XPDDT99J9GKB5C
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y samsung-magician
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install samsung-magician
 ```
 #### **Manually**
@@ -500,15 +500,15 @@ scoop install samsung-magician
 Launcher for Epic Games Store and access to your library and store.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install EpicGames.EpicGamesLauncher
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y epicgameslauncher
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install epicgameslauncher
 ```
 <!-- tabs:end -->
@@ -517,15 +517,15 @@ scoop install epicgameslauncher
 Game launcher and manager for GOG games with optional DRM-free features.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install GOG.Galaxy
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y goggalaxy
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install goggalaxy
 ```
 <!-- tabs:end -->
@@ -534,15 +534,15 @@ scoop install goggalaxy
 Open-source video transcoder for converting video formats.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install HandBrake.HandBrake
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y handbrake
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install handbrake
 ```
 <!-- tabs:end -->
@@ -551,15 +551,15 @@ scoop install handbrake
 Automatically switch Windows between light and dark modes based on time and location
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Armin2208.WindowsAutoNightMode
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y auto-dark-mode
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install auto-dark-mode
 ```
 <!-- tabs:end -->
@@ -568,22 +568,22 @@ scoop install auto-dark-mode
 Versatile media player supporting most audio and video formats.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install VideoLAN.VLC
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y vlc
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install vlc
 ```
 <!-- tabs:end -->
 
 ### <i class="fa-brands fa-whatsapp"></i> [WhatsApp Beta](https://www.whatsapp.com)  
 Beta version of WhatsApp desktop client for messaging and calls.
-```powershell
+```terminal
 winget install WhatsApp.WhatsApp
 ```
 
@@ -591,15 +591,15 @@ winget install WhatsApp.WhatsApp
 File previewer that shows contents quickly with spacebar press just like on MacOS.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install QL-Win.QuickLook
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y quicklook
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install quicklook
 ```
 <!-- tabs:end -->
@@ -608,15 +608,15 @@ scoop install quicklook
 Fast and user-friendly image viewer with editing capabilities. I find this much better than the built-in photo viewer.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install FastStone.Viewer
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y faststone-image-viewer
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install faststone-image-viewer
 ```
 <!-- tabs:end -->
@@ -625,15 +625,15 @@ scoop install faststone-image-viewer
 Advanced torrent client with enhanced features.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install c0re100.qBittorrent-Enhanced-Edition
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y qbittorrent-enhanced
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install qbittorrent-enhanced
 ```
 <!-- tabs:end -->
@@ -642,15 +642,15 @@ scoop install qbittorrent-enhanced
 Command line distributed version control system.
 <!-- tabs:start -->
 #### **WinGet**
-```powershell
+```terminal
 winget install Git.Git
 ```
 #### **Chocolatey**
-```powershell
+```terminal
 choco install -y git
 ```
 #### **Scoop**
-```powershell
+```terminal
 scoop install git
 ```
 <!-- tabs:end -->
@@ -658,7 +658,7 @@ scoop install git
 ### <i class="fa-brands fa-python"></i> [Python Launcher](https://www.python.org)  
 Launcher for managing Python versions and scripts.
 
-```powershell
+```terminal
 winget install Python.Launcher
 ```
 

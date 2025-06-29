@@ -43,16 +43,16 @@ Make sure that Windows Terminal has the correct permissions.
    > If you don't you won't be able to install ex. Chocolatey
 
    In **PowerShell**, run:  
-   ```powershell
+   ```terminal
    Get-ExecutionPolicy
    ```
 
 If it shows Restricted, run the following command
-   ```powershell
+   ```terminal
    Set-ExecutionPolicy AllSigned
    ```
    or
-   ```powershell
+   ```terminal
    Set-ExecutionPolicy Bypass -Scope Process
    ```
 Now if you run Get-ExecutionPolicy, it should show AllSigned.
@@ -60,7 +60,7 @@ Now if you run Get-ExecutionPolicy, it should show AllSigned.
 ## Update Powershell and import settings
 
 Install the newest Powershell
-   ```powershell
+   ```terminal
    iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
    ```
 

@@ -10,7 +10,7 @@ The only way I use Windows 11 now is either with WinGet or Chocolatey. They are 
 Make sure you are running the newest version of WinGet (App Installer)
 
    In **PowerShell**, run:  
-   ```powershell
+   ```terminal
    Add-AppxPackage -Path "$env:SystemRoot\System32\AppX\AppxManifest.xml" -Register
    ```
 
@@ -19,12 +19,12 @@ Make sure you are running the newest version of WinGet (App Installer)
 If you want, you can install this, but you don't have too
 
    In **PowerShell**, run:  
-   ```powershell
+   ```terminal
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
 
    If you did install it, you can run this command to make it auto upgrade all the apps every monday at 04:00 AM
-   ```powershell
+   ```terminal
    choco install choco-upgrade-all-at --params "'/WEEKLY:yes /DAY:MON /TIME:04:00'"
    ```
 
@@ -33,7 +33,7 @@ If you want, you can install this, but you don't have too
 Scoop is another variant of Chocolatey. I've used it a couple of times, but now I mostly stick to WinGet, and use Chocolatey for stuff I don't find on WinGet.
 
    If you want to install it, run these commands (NOT IN ADMIN MODE!):
-   ```powershell
+   ```terminal
    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    irm get.scoop.sh | iex
    scoop install git

@@ -29,11 +29,11 @@ Oh My Posh is a prompt theme engine. It adds information to the prompt of Window
 ![oh-my-posh](_media/oh-my-posh.png)
 
 Install Oh My Posh by typing this in Windows Terminal
-   ```powershell
+   ```terminal
    winget install JanDeDobbeleer.OhMyPosh -s winget
    ```
    or
-   ```powershell
+   ```terminal
    choco install oh-my-posh
    ```
 
@@ -44,7 +44,7 @@ You can use [my theme if you want](_files/visneslabs.omp.json) (right click & sa
 ## Terminal Icons
 
 Install the terminal icons so you can prettify even more
-   ```powershell
+   ```terminal
    Install-Module -Name Terminal-Icons -Repository PSGallery
    ```
 
@@ -53,7 +53,7 @@ Install the terminal icons so you can prettify even more
 [Winfetch](https://github.com/lptstr/winfetch/) is like Neofetch on Linux. It shows you your system specs, and is mostly used to make screenshots of your computer desktop look nice.
 
 Install Winfetch by tuping this in Windows Terminal
-   ```powershell
+   ```terminal
    Install-Script winfetch
    ```
 > [!ATTENTION|label:Install location] 
@@ -67,13 +67,13 @@ If you want to use my version, [you can get it here](https://github.com/Visnes/w
 To make any of this work, you need to edit your terminal profile. This file might exist now, or not. If it doesn't make it.
 
 Open your profile with the following command in Windows Terminal
-   ```powershell
+   ```terminal
    notepad $PROFILE
    ```
 If it says a file like that doesn't exist, close notepad and try again, if it still says it doesn't exist, create it and save the file.
 
 Make sure the following is located in this file
-   ```powershell
+   ```terminal
    #Terminal-Icons
    Import-Module Terminal-Icons
 

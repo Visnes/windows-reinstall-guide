@@ -13,7 +13,7 @@ Windows comes, as you know, with a lot of wank. There are ways to make it less b
 This is the only one of these that I always use, it's a great app that lets you do a lot of tweaks that would require you to run a bunch of commands and/or editing your registry. Keep in mind that some of these can fuck your installation, and some of them are for Windows 10 only.
 
 Install WinAero by typing this in Windows Terminal
-   ```powershell
+   ```terminal
    winget install winaero.tweaker
    ```
 
@@ -70,7 +70,7 @@ I would also suggest going through the entire list and see what you find. Maybe 
 > This can *seriously* fuck your Windows and stop it from getting updates. If you have no clue what you are doing, do NOT run this script. Also, PLEASE read the github page for the script. Keep in mind, this was last updated in 2024.
 
 Run the script by typing this into Windows Terminal
-   ```powershell
+   ```terminal
    iwr -useb https://github.com/prolix-oc/Refyne/releases/latest/download/Refyne.ps1 | iex
    ```
 
