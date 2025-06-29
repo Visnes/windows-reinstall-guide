@@ -11,6 +11,9 @@ Now that you've made backups of the stuff you care about, you're now ready to re
 | DirectX media features             | ✅ Fully supported       | ❌ Some components missing    |
 | Feature Pack Available             | 🚫 Not needed           | ✅ Can install Media Feature Pack manually |
 
+> [!WARNING]
+> The best way to reinstall is to delete the partions for your C drive and start over. BE VERY CAREFULL if you have more than one drive so you don't accidentally remove one of them. The content of the drive will be destroyed when you do this.
+
 
 # Make a bootable Windows USB stick
 
