@@ -3,6 +3,8 @@ This guide was made for personal use because I wanted to remember everything I n
 
 A friend asked me to give him the files, so of course I over did it. The files started as .txt documents, but is now a repo. Why? Eh?
 
+Seeing this from the repo page? [Click here.](https://visnes.github.io/windows-reinstall-guide)
+
 # Things to remember
 This is a guide that works for me. It might not work for you. I'm not responsible for you fucking your shit up. Thanks.
 
