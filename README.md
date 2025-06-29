@@ -8,4 +8,4 @@ Seeing this from the repo page? [Click here.](https://visnes.github.io/windows-r
 # Things to remember
 This is a guide that works for me. It might not work for you. I'm not responsible for you fucking your shit up. Thanks.
 
-**[Let's a go! →](before.md)**
+<br /><br /><span style="font-size: 24px; float:right;">**[Let's a go! →](before.md)**</span><br /><br /><br />
