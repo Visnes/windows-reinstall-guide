@@ -2,7 +2,7 @@
 
 # Windows 11<br />Reinstall Guide <small>0.5</small>
 
-> A guide to help you<br />reinstalling Windows 11 easier.
+> A guide to help you reinstall Windows 11.
 
 *The only way to reinstall Windows is to know what you're doing.*
 
