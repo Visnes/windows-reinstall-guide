@@ -9,8 +9,8 @@ Again, these are apps I use and need, you choose yourself if you need them or no
 
 1. Make sure to run the installer as admin
 2. I've installed it on my D drive, so I just overwrite the install already there and it opens like it would on my PC before the reinstall.
-3. ???
-4. Profit some more?
+3. If it locks up on steam.lnk or something, just force close the install in **Task Manager**
+4. Start to see if it all works nicely!
 
 ## Logitech G Hub
 

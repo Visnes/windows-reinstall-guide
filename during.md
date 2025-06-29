@@ -13,10 +13,11 @@ Now that you've made backups of the stuff you care about, you're now ready to re
 
 
 ## Make a bootable Windows USB stick
+
 ### Ventoy
 There are several ways to do this, I like to use [Ventoy](https://github.com/ventoy/Ventoy). It's tooted as "A new bootable USB solution".
 
-> [!NOTE]  
+> [!NOTE]
 > The reason I like it, is that you make a Ventoy USB stick, and just copy the ISOs you want onto it, and then you get to select which ISO to run. So you can have one USB stick with both Windows, Linux etc. A little more involved, but really nice.
 
 ### Windows Media Creation Tool

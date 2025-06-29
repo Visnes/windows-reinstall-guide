@@ -7,6 +7,14 @@
     ➕ Dark/light theme toggle based on system theme
 
     ➕ Copy to clipboard for code blocks
+    
+    ➕ Added logo to sidebar
+    
+    ➕ Added navigation bar at the top for language (EN only currently)
+
+    ➕ Prettified the terminal commands view
+
+    ➕ Added tabs to show the install command for WinGet, Chocolatey and Scoop
 
 ### Changed
 

@@ -1,4 +1,4 @@
-> 💡 **But why?**  
+> [!ATTENTION]
 > Windows doesn't come optimized and does a lot of weird stuff I don't like. These are some of them.
 
 ## Rename your PC?
@@ -64,6 +64,6 @@ Windows defaults to not use your full system. On a stationary PC, change the pow
 
 - Copy Autodark Config folder **"X:\Backup\AppData\Roaming\AutoDarkMode"** to **"%AppData%\AutoDarkMode"**
 
-- Go through Windows Settings and set it up
+- Go through Windows Settings and set it up like you want it. One page at a time. 🙃
 
 <br /><br /><span style="font-size: 24px; float:right;">**[Let's check on Windows Update ➡️](windows-update.md)**</span><br /><br /><br />

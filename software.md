@@ -94,7 +94,7 @@ in Windows Terminal go to the folder you want to save it and type
    notepad semi-critical-software.ps1
    ```
 Then in that file, add the following
-   ```terminal
+   ```notepad
 #############
 # Variables #
 #############

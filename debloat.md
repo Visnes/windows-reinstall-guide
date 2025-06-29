@@ -68,9 +68,9 @@ I would also suggest going through the entire list and see what you find. Maybe 
 > This can *seriously* fuck your Windows and stop it from getting updates. If you have no clue what you are doing, do NOT run this script. Also, PLEASE read the github page for the script. Keep in mind, this was last updated in 2024.
 
 Run the script by typing this into Windows Terminal
-   ```terminal
-   iwr -useb https://github.com/prolix-oc/Refyne/releases/latest/download/Refyne.ps1 | iex
-   ```
+```powershell
+iwr -useb https://github.com/prolix-oc/Refyne/releases/latest/download/Refyne.ps1 | iex
+```
 
 ## BloatyNosy
 

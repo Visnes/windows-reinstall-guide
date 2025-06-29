@@ -73,7 +73,7 @@ Open your profile with the following command in Windows Terminal
 If it says a file like that doesn't exist, close notepad and try again, if it still says it doesn't exist, create it and save the file.
 
 Make sure the following is located in this file
-   ```terminal
+   ```notepad
    #Terminal-Icons
    Import-Module Terminal-Icons
 
