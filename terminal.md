@@ -1,5 +1,3 @@
-# Beautify Windows Terminal
-
 > [!ATTENTION]
 > Remember to run Windows Terminal in Administrative Mode.
 
@@ -43,7 +41,7 @@ You can use [my theme if you want](_files/visneslabs.omp.json) (right click & sa
 
 ## Terminal Icons
 
-Install the terminal icons so you can prettify even more
+Install the terminal icons so you can prettify it by adding icons to different types of files and folders in Terminal.
    ```terminal
    Install-Module -Name Terminal-Icons -Repository PSGallery
    ```

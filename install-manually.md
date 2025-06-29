@@ -1,5 +1,3 @@
-# Download & install
-
 > [!TIP] 
 > Some software can't be installed with WinGet etc. So you will have to download the installation file and run it from the harddrive.
 

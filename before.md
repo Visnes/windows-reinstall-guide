@@ -1,5 +1,3 @@
-# Before you reinstall
-
 It's important to backup whatever you need. I always save my most important stuff on separate drives other than the C-drive.
 
 ---

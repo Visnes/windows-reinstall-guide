@@ -1,5 +1,3 @@
-# Fixing language problems
-
 > [!ATTENTION] 
 > Windows is pretty shit if you are non-US but want to have a US language for the OS, but still use your local format and keyboard.
 

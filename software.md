@@ -1,5 +1,3 @@
-# Installing your software
-
 What's seen as critical software is subjective. For me it's stuff like Dropbox, Firefox and Proton Pass, for you it can be different. You can also look as this page as a list of good software for your Windows 11 installation. None of this is "must have", you decide.
 
 > [!NOTE|label:Manual or script] 

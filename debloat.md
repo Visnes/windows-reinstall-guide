@@ -1,5 +1,3 @@
-# Debloat
-
 Windows comes, as you know, with a lot of wank. There are ways to make it less bloated either manually or by using scripts. The last reinstall i did, I decided not to run any of the usual scripts, and I haven't had any problems thus far. You can also run these scripts later on if you want.
 
 > [!WARNING]

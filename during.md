@@ -1,5 +1,3 @@
-# Installing Windows 11
-
 Now that you've made backups of the stuff you care about, you're now ready to reinstall Windows 11. You choose which version of Windows 11 you want to install. The two I go between is Windows 11 Pro and Windows 11 Pro N. Here are the differences. Basically Windows 11 Pro N is made to be compliant with EU laws, so they have removed a bunch of media apps. You can install them later if you need them.
 
 | Feature                            | Windows 11 Pro          | Windows 11 Pro N              |

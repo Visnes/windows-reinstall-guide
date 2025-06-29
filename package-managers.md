@@ -1,5 +1,3 @@
-# Package Managers
-
 The only way I use Windows 11 now is either with WinGet or Chocolatey. They are package managers using CLI, which is a really nice and easy way to install, and uninstall, apps on your computer.
 
 > [!ATTENTION]  

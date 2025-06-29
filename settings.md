@@ -1,5 +1,3 @@
-# Settings to remember
-
 > 💡 **But why?**  
 > Windows doesn't come optimized and does a lot of weird stuff I don't like. These are some of them.
 

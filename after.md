@@ -1,5 +1,3 @@
-# After you reinstall
-
 Now you are hopefully in your newly reinstalled Windows 11. Looking fresh? Most of what you will be doing will happen inside Windows Terminal and using Powershell.
 
 > [!WARNING] 
