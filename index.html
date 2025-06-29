@@ -14,6 +14,7 @@
       name: 'Windows 11 Reinstall Guide',
       repo: 'Visnes/windows-reinstall-guide',
       loadSidebar: true,
+      subMaxLevel: 1,
       coverpage: true,
       copyCode: {
         buttonText: 'Copy',
@@ -22,7 +23,25 @@
       },
     }
   </script>
+  <script>
+  function initCheckboxes() {
+    document.querySelectorAll('.content input[type="checkbox"]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        localStorage.setItem(cb.id, cb.checked);
+      });
+      const saved = localStorage.getItem(cb.id);
+      if (saved !== null) cb.checked = (saved === 'true');
+    });
+  }
+
+  window.$docsify = {
+    loadSidebar: true,
+    subMaxLevel: 2,
+    afterEach: initCheckboxes
+  };
+  </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://unpkg.com/docsify-accordion"></script>
   <script src="https://unpkg.com/docsify-copy-code"></script>
   </body>
 </html>

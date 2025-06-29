@@ -66,4 +66,11 @@ It's important to backup whatever you need. I always save my most important stuf
 > 💡 **Why do this?**
 > So you remember which apps you have were. I do this because I like my Start Menu some certain way, if you don't care about that, skip it.
 
+- <input type="checkbox" id="step1"> Step 1: AppData backed up
+- <input type="checkbox" id="step2"> Step 2: Fonts backed up
+- <input type="checkbox" id="step3"> Step 3: App settings backed up
+- <input type="checkbox" id="step4"> Step 4: PowerToys
+- <input type="checkbox" id="step5"> Step 5: List of all apps installed
+- <input type="checkbox" id="step6"> Step 6: Screenshots taken
+
 **[Time to install Windows 11, baby! →](during.md)**

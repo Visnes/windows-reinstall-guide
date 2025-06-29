@@ -30,7 +30,7 @@ I use Dropbox, so I make a path variable for it.
 
 ## Install Microsoft Windows Terminal
 
-It might be installed, but you can just run this command in Command Prompt:  
+It might be installed, but make sure by running this command in Command Prompt:  
 
    ```command prompt
    winget install Microsoft.WindowsTerminal
@@ -38,6 +38,9 @@ It might be installed, but you can just run this command in Command Prompt:
 ## Execution Policies
 
 Make sure that Windows Terminal has the correct permissions.
+
+   > 💡 **Why do this?**  
+   > If you don't you won't be able to install ex. Chocolatey
 
    In **PowerShell**, run:  
    ```powershell
@@ -61,6 +64,9 @@ Install the newest Powershell
    iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
    ```
 
+   > 💡 **Why do this?**  
+   > The Powershell that comes with Windows is not the newest version, so you use this to install it. This will install the newest PowerShell into Program Files.
+
 ## Configure Windows Terminal
    1. In Windows Terminal click CTRL + ,
    2. Go To PowerShell (left side) and change location to
@@ -68,9 +74,12 @@ Install the newest Powershell
    %PROGRAMFILES%\PowerShell\7\pwsh.exe
    ```
    > 💡 **Why do this?**  
-   > Currently the PowerShell it runs is not the new one, this will make it run the latest version (might be 8 if they release it though)
+   > Windows Terminal uses PowerShell installed with Windows, you need to tell it to use the new one you installed.
 
 ## Copy over settings from backup
+
+You made a backup of AppData in the first part of the guide, now we get to use what you backed up. X: is drive you placed the backup.
+
    1. Copy content of 
    ```
    X:\Backup\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
@@ -88,5 +97,10 @@ I usually install Windows Sandbox at this point, type the following command:
    ```
    Enable-WindowsOptionalFeature -Online -FeatureName "Containers-DisposableClientVM" -All
    ```
+
+## Windows 11 Pro N
+If you installed this version of Windows 11 and want to install the Media Features now or later on
+
+Settings → Apps → Optional features → Select View features → Install the Media Feature Pack
 
 **[Next up, package managers! →](package-managers.md)**

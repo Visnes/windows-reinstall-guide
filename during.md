@@ -1,8 +1,18 @@
 # Installing Windows 11
 
-Now that you've made backups of the stuff you care about, you're now ready to reinstall Windows 11.
+Now that you've made backups of the stuff you care about, you're now ready to reinstall Windows 11. You choose which version of Windows 11 you want to install. The two I go between is Windows 11 Pro and Windows 11 Pro N. Here are the differences. Basically Windows 11 Pro N is made to be compliant with EU laws, so they have removed a bunch of media apps. You can install them later if you need them.
 
----
+| Feature                            | Windows 11 Pro          | Windows 11 Pro N              |
+|------------------------------------|--------------------------|-------------------------------|
+| Windows Media Player               | ✅ Included              | ❌ Not included               |
+| Voice Recorder                     | ✅ Included              | ❌ Not included               |
+| Skype                              | ✅ Included              | ❌ Not included               |
+| Video & Music Apps (Groove, etc.) | ✅ Included              | ❌ Not included               |
+| Microsoft Teams Chat               | ✅ Included              | ❌ Not included               |
+| Media Foundation                   | ✅ Included              | ❌ Not included               |
+| DirectX media features             | ✅ Fully supported       | ❌ Some components missing    |
+| Feature Pack Available             | 🚫 Not needed           | ✅ Can install Media Feature Pack manually |
+
 
 ## Make a bootable Windows USB stick
 ### Ventoy
