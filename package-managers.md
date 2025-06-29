@@ -2,7 +2,7 @@
 
 The only way I use Windows 11 now is either with WinGet or Chocolatey. They are package managers using CLI, which is a really nice and easy way to install, and uninstall, apps on your computer.
 
-> ⚠️ **Administrative Mode**  
+> [!ATTENTION]  
 > From now on, get used to running Windows Terminal in admin mode (you should have done that before this point too).
 
 ## WinGet

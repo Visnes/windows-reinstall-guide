@@ -2,10 +2,10 @@
 
 Windows comes, as you know, with a lot of wank. There are ways to make it less bloated either manually or by using scripts. The last reinstall i did, I decided not to run any of the usual scripts, and I haven't had any problems thus far. You can also run these scripts later on if you want.
 
-> ⚠️ **Warning!**  
+> [!WARNING]
 > One important thing to remember with these scripts is that they *can* ruin your installation in different ways. If you're not careful you might lose any ability to install updates and it can screw with your permissions etc. BE CAREFUL!
 
-> ⚠️ **Backup**  
+> [!ATTENTION]
 > I would suggest creating a restore point before doing any of this. Open the start menu and type "restore" it should say "Create a restore point", do this. In case anything goes wrong, you can restore Windows to how it was before you made these changes.
 
 ## WinAero
@@ -66,7 +66,7 @@ I would also suggest going through the entire list and see what you find. Maybe 
 
 ![refyne](_media/refyne.webp)
 
-> ⚠️ **Warning**  
+> [!WARNING]
 > This can *seriously* fuck your Windows and stop it from getting updates. If you have no clue what you are doing, do NOT run this script. Also, PLEASE read the github page for the script. Keep in mind, this was last updated in 2024.
 
 Run the script by typing this into Windows Terminal
@@ -80,7 +80,7 @@ Run the script by typing this into Windows Terminal
 
 ![bloatynosy](_media/bloatynosy.png)
 
-> ⚠️ **Warning**  
+> [!ATTENTION]
 > Less dangerous than Refyne, but please do read and understand what you are doing before you click anything.
 
 You have to download the app from the github (linked above), and run it.
@@ -91,7 +91,7 @@ You have to download the app from the github (linked above), and run it.
 
 ![optimizer](_media/optimizer.png)
 
-> ⚠️ **Warning**  
+> [!NOTE]
 > The least dangerous of the three. Easy to use, and easy to understand. But, understand what you are doing before you click click.
 
 You have to download the app from the github (linked above), and run it.

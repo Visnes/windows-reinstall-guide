@@ -9,7 +9,7 @@ It's important to backup whatever you need. I always save my most important stuf
    to:  
    **`X:\Backup`**
 
-> 💡 **Why do this?**  
+> [!TIP]
 > AppData contains configuration, saved states, and data for apps like browsers, editors, and launchers. Backing it up helps restore your setup after reinstalling Windows.
 
 ---
@@ -19,7 +19,7 @@ It's important to backup whatever you need. I always save my most important stuf
    to:  
    **`X:\Backup`**
 
-> 💡 **Why do this?**  
+> [!TIP]
 > Preserves any manually installed fonts not synced via Microsoft account.
 
 ---
@@ -33,14 +33,14 @@ It's important to backup whatever you need. I always save my most important stuf
   → Backup this registry key:
   **`HKEY_CURRENT_USER\Software\Plex, Inc.\`**
 
-> 💡 **Why do this?**  
+> [!TIP] 
 > Makes it easier to reimport the settings on a new install. If you don't use any of these apps, you can skip this step. Although you might have separate apps not on this list that you would want to back up.
 
 ---
 
 4. Open **PowerToys** → Go to **Backup Settings** and export.
 
-> 💡 **Why do this?**  
+> [!TIP]
 > Allows restoring PowerToys customizations quickly.
 
 ---
@@ -50,7 +50,7 @@ It's important to backup whatever you need. I always save my most important stuf
    choco list --local-only
    winget list
 
-> 💡 **Why do this?**
+> [!TIP]
 > This will show you a list of all the apps installed by these programs. If you don't use Chocolatey or Scoop, you can skip those. Winget will show you installed apps from Microsoft Store.
 
 6. In **PowerShell**, run:  
@@ -58,7 +58,7 @@ It's important to backup whatever you need. I always save my most important stuf
    Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*,HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | Where-Object { $_.DisplayName } | Select-Object DisplayName, DisplayVersion, Publisher | Sort-Object DisplayName | Out-File -Encoding UTF8 -FilePath (Join-Path $env:USERPROFILE "Desktop\Installed Apps ($(Get-Date -Format 'MMMM yyyy')).txt")>
    ```
 
-> 💡 **Why do this?**
+> [!TIP]
 > This will create a file called 'Installed Apps (April 2025).txt' on your desktop. This file will contain all installed apps on Windows. Why run this and the one above? Because some times you don't get all the apps with this command unfortunately.
 
 7. Backup Firefox (if you use it)
@@ -70,7 +70,7 @@ It's important to backup whatever you need. I always save my most important stuf
 
 8. Take screenshots of your startmenu, taskbar, desktop.
 
-> 💡 **Why do this?**
+> [!TIP]
 > So you remember which apps you have were. I do this because I like my Start Menu some certain way, if you don't care about that, skip it.
 
 - <input type="checkbox" id="step1"> Step 1: AppData backed up

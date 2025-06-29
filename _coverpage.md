@@ -1,13 +1,13 @@
 ![logo](_media/logo.png)
 
-# Windows 11 Reinstall Guide <small>0.5</small>
+# Windows 11<br />Reinstall Guide <small>0.5</small>
 
 > A guide for making the process of<br />reinstalling Windows 11 easier.
 
-- This was made for a friend,
-- So it's nothing special
+*The only way to reinstall Windows is to know what you're doing.*
 
-[GitHub](https://github.com/visnes/windows-reinstall-guide)
 [Get Started](README.md)
+[Changelog](changelog.md)
+[GitHub](https://github.com/visnes/windows-reinstall-guide)
 
 ![color](#f0f0f0)

@@ -1,6 +1,6 @@
 # Beautify Windows Terminal
 
-> 💡 **Admin mode**  
+> [!ATTENTION]
 > Remember to run Windows Terminal in Administrative Mode.
 
 I like to make my Windows Terminal a little better looking then the defualt look.
@@ -56,7 +56,7 @@ Install Winfetch by tuping this in Windows Terminal
    ```powershell
    Install-Script winfetch
    ```
-> 💡 **Install location**  
+> [!ATTENTION|label:Install location] 
 > App installed in: C:\Users\<user>\Documents\PowerShell\Scripts  
 > Config installed in: C:\Users\<user>\.config\winfetch\config.ps1
 

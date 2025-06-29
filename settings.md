@@ -10,7 +10,7 @@
 
 1. Win+R
 2. Type **intl.cpl** and click enter
-3. Change Regional Format to "Norwegian Bokmål (Norway)" or whatever language you want.
+3. Change Regional Format to **"Norwegian Bokmål (Norway)"** or whatever language you want.
 
 ## Start menu
 If you've added your own shortcuts in the Startmenu, they are located in 
@@ -29,27 +29,34 @@ Copy the links you want to keep into
 ## Check monitor refresh rate
 
 Some times Windows 11 doesn't use the max refresh rate for your monitor after a reinstall, so check that in
-```
-Settings → System → Display → Advancded display → Select your display → Choose a refresh rate → The max allowed
-```
+
+- Settings → System → Display → Advancded display → Select your display → Choose a refresh rate → The max available
+
 ⚠️ **If dynamic refresh rate is on (and your not on a laptop) turn it off!**
 
 ## Graphics settings
 Some say you should turn off Hardware-accelerated GPU scheduling. Right now games like Doom: Dark Ages requires this to be turned on for it to work correctly. I stopped changing this setting in the latest reinstall I did, and have had no problems with it being on. But, if you still want to turn it off, go to the following settings
 
-```
-Settings → System → Display → Graphics → Advanced graphics settings → Hardware-accelerated GPU scheduling
-```
+
+- Settings → System → Display → Graphics → Advanced graphics settings → Hardware-accelerated GPU scheduling
+
 ## Power Plan
+
+> [!WARNING]
+> Do NOT do this if you have any of the following AMD GPUs: 7950X3D, 7900X3D, 9950X3D or 9900X3D.
 
 Windows defaults to not use your full system. On a stationary PC, change the power plan to **performance**.
 
 1. Open start menu and type **"Edit Power Plan"**
-2. Click **"Change advanced power settings"**
-3. In dropdown choose **"High performance"**
-4. Go to **"Processor power management"**
-5. Change **"Minimum processor state"** to **10%**
-6. Click **"Ok"**
+2. Click **"Power Options"** in the adress field
+3. Click **"Show additional plans"**
+4. Select **"High performance"**
+5. Click **"Change plan settings"** for high performance
+6. Click **"Change advanced power settings"**
+6. Go to **"Processor power management"**
+7. Change **"Minimum processor state"** to **10%**
+8. Click **"Ok"**
+9. Click **"Save changes"**
 
 ## Miscellaneous
 

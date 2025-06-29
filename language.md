@@ -1,6 +1,6 @@
 # Fixing language problems
 
-> 💡 **But why?**  
+> [!ATTENTION] 
 > Windows is pretty shit if you are non-US but want to have a US language for the OS, but still use your local format and keyboard.
 
 Windows often gets confused that you want to have an English version Windows but still have your local formating and keyboard. So whenever you hit Win-Space by mistake, it changes the keyboard layout to US. We shall fix that!

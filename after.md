@@ -2,7 +2,7 @@
 
 Now you are hopefully in your newly reinstalled Windows 11. Looking fresh? Most of what you will be doing will happen inside Windows Terminal and using Powershell.
 
-> ⚠️ **First off!**  
+> [!WARNING] 
 > Make sure that drives are set to the right drive letters! Do this by right-clicking on the Start Menu icon and select Disk Management. Here you can change the drive letters for each drive.
 
 ## Path Variables
@@ -25,7 +25,7 @@ I use Dropbox, so I make a path variable for it.
    and Variable value:  
    **X:\Dropbox**
 
-> 💡 **Why do this?**  
+> [!TIP]
 > It comes into play when you start using commands later on. Instead of typing the driver and path, you just do **$env:Dropbox** I don't know if this is easier though. I just do it for some reason
 
 ## Install Microsoft Windows Terminal
@@ -39,7 +39,7 @@ It might be installed, but make sure by running this command in Command Prompt:
 
 Make sure that Windows Terminal has the correct permissions.
 
-   > 💡 **Why do this?**  
+   > [!ATTENTION]
    > If you don't you won't be able to install ex. Chocolatey
 
    In **PowerShell**, run:  
@@ -64,7 +64,7 @@ Install the newest Powershell
    iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
    ```
 
-   > 💡 **Why do this?**  
+   > [!ATTENTION]  
    > The Powershell that comes with Windows is not the newest version, so you use this to install it. This will install the newest PowerShell into Program Files.
 
 ## Configure Windows Terminal
@@ -73,7 +73,7 @@ Install the newest Powershell
    ```
    %PROGRAMFILES%\PowerShell\7\pwsh.exe
    ```
-   > 💡 **Why do this?**  
+   > [!ATTENTION] 
    > Windows Terminal uses PowerShell installed with Windows, you need to tell it to use the new one you installed.
 
 ## Copy over settings from backup
@@ -88,7 +88,7 @@ You made a backup of AppData in the first part of the guide, now we get to use w
    ```
    %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
    ```
-   > 💡 **Why do this?**  
+   > [!ATTENTION] 
    > If you've configured your Windows Terminal on the old installation, this is where the files are. Just overwrite the ones on the new install. If Windows Terminal doesn't start after this, just delete the files in LocalState and start it again. It will reset it.
 
 ## Windows Sandbox

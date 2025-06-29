@@ -1,6 +1,6 @@
 # Download & install
 
-> 💡 **But why?**  
+> [!TIP] 
 > Some software can't be installed with WinGet etc. So you will have to download the installation file and run it from the harddrive.
 
 Again, these are apps I use and need, you choose yourself if you need them or not.
@@ -59,3 +59,5 @@ For playing World of Warcraft (still).
 I hate Adobe, so I use the Affinity suite instead.
 
 📥 [Download the app](https://store.serif.com/en-us/account/downloads/)
+
+**[Now for settings! →](settings.md)**
